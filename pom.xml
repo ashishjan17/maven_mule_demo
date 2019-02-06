@@ -13,11 +13,7 @@
         <id>releases</id>
         <url>https://github.com/ashishjan17/maven_mule_demo.git</url>
     </repository>
-    <snapshotRepository>
-        <id>snapshots</id>
-        <url>https://github.com/ashishjan17/maven_mule_demo.git</url>
-    </snapshotRepository>
-</distributionManagement>
+   </distributionManagement>
 
     <properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
