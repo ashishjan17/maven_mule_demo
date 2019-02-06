@@ -282,12 +282,12 @@
 			</activation>
 			<distributionManagement>
 				<snapshotRepository>
-					<id>ossrh</id>
-					<url>https://oss.sonatype.org/content/repositories/snapshots</url>
+					<id>releases</id>
+					<url>https://github.com/ashishjan17/maven_mule_demo.git</url>
 				</snapshotRepository>
 				<repository>
-					<id>ossrh</id>
-					<url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+					<id>github-project-site</id>
+					<url>https://github.com/ashishjan17/maven_mule_demo.git</url>
 				</repository>
 			</distributionManagement>
 			<build>
