@@ -200,7 +200,7 @@
 							<deploymentType>standalone</deploymentType>
 							<muleVersion>${mule.version}</muleVersion>
 							<muleHome>${mule.home}</muleHome>
-							<applicationName>${artifactId}</applicationName>
+							<applicationName>${project.artifactId}</applicationName>
 							<community>${mule.runtime.community}</community>
 						</configuration>
 						<executions>
@@ -228,7 +228,7 @@
 							<muleVersion>${mule.version}</muleVersion>
 							<username>${anypoint.username}</username>
 							<password>${anypoint.password}</password>
-							<applicationName>${artifactId}</applicationName>
+							<applicationName>${project.artifactId}</applicationName>
 							<environment>${cloundhub.env}</environment>
 							<businessGroup>${anypoint.businessGroup}</businessGroup>
 							<region>${cloudhub.region}</region>
