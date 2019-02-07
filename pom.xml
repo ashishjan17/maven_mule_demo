@@ -11,7 +11,7 @@
 	<distributionManagement>
     <repository>
         <id>releases</id>
-        <url>file://C:\Users\aparashar\Desktop\MSWorkSpace\testapp\target</url>
+        <url>https://github.com/ashishjan17/maven_mule_demo.git</url>
     </repository>
    </distributionManagement>
 
@@ -201,7 +201,7 @@
 							<deploymentType>standalone</deploymentType>
 							<muleVersion>${mule.version}</muleVersion>
 							<muleHome>${mule.home}</muleHome>
-							<applicationName>${project.artifactId}</applicationName>
+							<applicationName>${artifactId}</applicationName>
 							<community>${mule.runtime.community}</community>
 						</configuration>
 						<executions>
@@ -226,16 +226,16 @@
 						<artifactId>mule-maven-plugin</artifactId>
 						<configuration>
 							<deploymentType>cloudhub</deploymentType>
-							<muleVersion>4.1.1</muleVersion>
-							<username></username>
-							<password></password>
-							<applicationName>testapp</applicationName>
-							<environment>SANDBOX</environment>
-							<businessGroup>Groundswell Group</businessGroup>
-							<region>us-west-2 - US West (Oregon)</region>
-							<uri>https://anypoint.mulesoft.com</uri>
-							<workerType>MICRO (0.1 vCores)</workerType>
-							<workers>1</workers>
+							<muleVersion>${mule.version}</muleVersion>
+							<username>${anypoint.username}</username>
+							<password>${anypoint.password}</password>
+							<applicationName>${artifactId}</applicationName>
+							<environment>${cloundhub.env}</environment>
+							<businessGroup>${anypoint.businessGroup}</businessGroup>
+							<region>${cloudhub.region}</region>
+							<uri>${anypoint.uri}</uri>
+							<workerType>${cloudhub.workerType}</workerType>
+							<workers>${cloudhub.workers}</workers>
 						</configuration>
 						<executions>
 							<execution>
@@ -282,52 +282,8 @@
 				</plugins>
 			</build>
 		</profile>
-		<profile>
-			<id>release</id>
-			<activation>
-				<activeByDefault>true</activeByDefault>
-			</activation>
-			<distributionManagement>
-				<snapshotRepository>
-					<id>ossrh</id>
-					<url>https://oss.sonatype.org/content/repositories/snapshots</url>
-				</snapshotRepository>
-				<repository>
-					<id>ossrh</id>
-					<url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
-				</repository>
-			</distributionManagement>
-			<build>
-				<plugins>
-					<plugin>
-						<groupId>org.apache.maven.plugins</groupId>
-						<artifactId>maven-gpg-plugin</artifactId>
-						<version>1.6</version>
-						<executions>
-							<execution>
-								<id>sign-artifacts</id>
-								<phase>verify</phase>
-								<goals>
-									<goal>sign</goal>
-								</goals>
-							</execution>
-						</executions>
-					</plugin>
-					<plugin>
-						<groupId>org.sonatype.plugins</groupId>
-						<artifactId>nexus-staging-maven-plugin</artifactId>
-						<version>1.6.7</version>
-						<extensions>true</extensions>
-						<configuration>
-							<serverId>ossrh</serverId>
-							<nexusUrl>https://oss.sonatype.org/</nexusUrl>
-							<autoReleaseAfterClose>false</autoReleaseAfterClose>
-						</configuration>
-					</plugin>
-				</plugins>
-			</build>
-		</profile>
-	</profiles>
+</profiles>
+
 	<repositories>
           <repository>
             <id>anypoint-exchange</id>
