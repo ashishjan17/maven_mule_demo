@@ -1,0 +1,357 @@
+{
+  "version": "1.0.0",
+  "artifactCoordinates": {
+    "groupId": "61a045f2-76e0-496c-83ec-dc8a3ad6f71a",
+    "artifactId": "testapp",
+    "version": "1.0.0-SNAPSHOT",
+    "type": "jar",
+    "classifier": "mule-application"
+  },
+  "dependencies": [
+    {
+      "artifactCoordinates": {
+        "groupId": "org.apache.activemq",
+        "artifactId": "activemq-broker",
+        "version": "5.15.3",
+        "type": "jar"
+      },
+      "uri": "repository/org/apache/activemq/activemq-broker/5.15.3/activemq-broker-5.15.3.jar"
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "org.apache.activemq",
+        "artifactId": "activemq-openwire-legacy",
+        "version": "5.15.3",
+        "type": "jar"
+      },
+      "uri": "repository/org/apache/activemq/activemq-openwire-legacy/5.15.3/activemq-openwire-legacy-5.15.3.jar"
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "com.google.guava",
+        "artifactId": "guava",
+        "version": "18.0",
+        "type": "jar"
+      },
+      "uri": "repository/com/google/guava/guava/18.0/guava-18.0.jar"
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "com.fasterxml.jackson.core",
+        "artifactId": "jackson-databind",
+        "version": "2.6.7",
+        "type": "jar"
+      },
+      "uri": "repository/com/fasterxml/jackson/core/jackson-databind/2.6.7/jackson-databind-2.6.7.jar"
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "com.fasterxml.jackson.core",
+        "artifactId": "jackson-annotations",
+        "version": "2.6.0",
+        "type": "jar"
+      },
+      "uri": "repository/com/fasterxml/jackson/core/jackson-annotations/2.6.0/jackson-annotations-2.6.0.jar"
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "com.fasterxml.jackson.core",
+        "artifactId": "jackson-core",
+        "version": "2.6.7",
+        "type": "jar"
+      },
+      "uri": "repository/com/fasterxml/jackson/core/jackson-core/2.6.7/jackson-core-2.6.7.jar"
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "org.apache.activemq",
+        "artifactId": "activemq-client",
+        "version": "5.15.3",
+        "type": "jar"
+      },
+      "uri": "repository/org/apache/activemq/activemq-client/5.15.3/activemq-client-5.15.3.jar"
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "org.slf4j",
+        "artifactId": "slf4j-api",
+        "version": "1.7.25",
+        "type": "jar"
+      },
+      "uri": "repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar"
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "org.apache.geronimo.specs",
+        "artifactId": "geronimo-jms_1.1_spec",
+        "version": "1.1.1",
+        "type": "jar"
+      },
+      "uri": "repository/org/apache/geronimo/specs/geronimo-jms_1.1_spec/1.1.1/geronimo-jms_1.1_spec-1.1.1.jar"
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "org.fusesource.hawtbuf",
+        "artifactId": "hawtbuf",
+        "version": "1.11",
+        "type": "jar"
+      },
+      "uri": "repository/org/fusesource/hawtbuf/hawtbuf/1.11/hawtbuf-1.11.jar"
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "org.apache.geronimo.specs",
+        "artifactId": "geronimo-j2ee-management_1.1_spec",
+        "version": "1.0.1",
+        "type": "jar"
+      },
+      "uri": "repository/org/apache/geronimo/specs/geronimo-j2ee-management_1.1_spec/1.0.1/geronimo-j2ee-management_1.1_spec-1.0.1.jar"
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "org.apache.activemq",
+        "artifactId": "activemq-kahadb-store",
+        "version": "5.15.3",
+        "type": "jar"
+      },
+      "uri": "repository/org/apache/activemq/activemq-kahadb-store/5.15.3/activemq-kahadb-store-5.15.3.jar"
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "org.apache.activemq.protobuf",
+        "artifactId": "activemq-protobuf",
+        "version": "1.1",
+        "type": "jar"
+      },
+      "uri": "repository/org/apache/activemq/protobuf/activemq-protobuf/1.1/activemq-protobuf-1.1.jar"
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "commons-net",
+        "artifactId": "commons-net",
+        "version": "3.6",
+        "type": "jar"
+      },
+      "uri": "repository/commons-net/commons-net/3.6/commons-net-3.6.jar"
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "org.apache.derby",
+        "artifactId": "derby",
+        "version": "10.14.1.0",
+        "type": "jar"
+      },
+      "uri": "repository/org/apache/derby/derby/10.14.1.0/derby-10.14.1.0.jar"
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "org.apache.derby",
+        "artifactId": "derbyclient",
+        "version": "10.14.1.0",
+        "type": "jar"
+      },
+      "uri": "repository/org/apache/derby/derbyclient/10.14.1.0/derbyclient-10.14.1.0.jar"
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "org.mule.connectors",
+        "artifactId": "mule-http-connector",
+        "version": "1.2.0",
+        "type": "jar",
+        "classifier": "mule-plugin"
+      },
+      "uri": "repository/org/mule/connectors/mule-http-connector/1.2.0/mule-http-connector-1.2.0-mule-plugin.jar"
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "org.mule.connectors",
+        "artifactId": "mule-sockets-connector",
+        "version": "1.1.1",
+        "type": "jar",
+        "classifier": "mule-plugin"
+      },
+      "uri": "repository/org/mule/connectors/mule-sockets-connector/1.1.1/mule-sockets-connector-1.1.1-mule-plugin.jar"
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "org.mule.modules",
+        "artifactId": "mule-scripting-module",
+        "version": "1.1.1",
+        "type": "jar",
+        "classifier": "mule-plugin"
+      },
+      "uri": "repository/org/mule/modules/mule-scripting-module/1.1.1/mule-scripting-module-1.1.1-mule-plugin.jar"
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "org.mule.connectors",
+        "artifactId": "mule-file-connector",
+        "version": "1.1.3",
+        "type": "jar",
+        "classifier": "mule-plugin"
+      },
+      "uri": "repository/org/mule/connectors/mule-file-connector/1.1.3/mule-file-connector-1.1.3-mule-plugin.jar"
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "org.mule.modules",
+        "artifactId": "mule-module-file-extension-common",
+        "version": "1.1.1",
+        "type": "jar",
+        "classifier": "mule-plugin"
+      },
+      "uri": "repository/org/mule/modules/mule-module-file-extension-common/1.1.1/mule-module-file-extension-common-1.1.1-mule-plugin.jar"
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "org.mule.connectors",
+        "artifactId": "mule-ftp-connector",
+        "version": "1.2.0",
+        "type": "jar",
+        "classifier": "mule-plugin"
+      },
+      "uri": "repository/org/mule/connectors/mule-ftp-connector/1.2.0/mule-ftp-connector-1.2.0-mule-plugin.jar"
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "org.mule.connectors",
+        "artifactId": "mule-db-connector",
+        "version": "1.3.2",
+        "type": "jar",
+        "classifier": "mule-plugin"
+      },
+      "uri": "repository/org/mule/connectors/mule-db-connector/1.3.2/mule-db-connector-1.3.2-mule-plugin.jar"
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "org.mule.modules",
+        "artifactId": "mule-spring-module",
+        "version": "1.1.1",
+        "type": "jar",
+        "classifier": "mule-plugin"
+      },
+      "uri": "repository/org/mule/modules/mule-spring-module/1.1.1/mule-spring-module-1.1.1-mule-plugin.jar"
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "org.springframework",
+        "artifactId": "spring-beans",
+        "version": "4.1.9.RELEASE",
+        "type": "jar"
+      },
+      "uri": "repository/org/springframework/spring-beans/4.1.9.RELEASE/spring-beans-4.1.9.RELEASE.jar"
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "org.springframework",
+        "artifactId": "spring-core",
+        "version": "4.1.9.RELEASE",
+        "type": "jar"
+      },
+      "uri": "repository/org/springframework/spring-core/4.1.9.RELEASE/spring-core-4.1.9.RELEASE.jar"
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "commons-logging",
+        "artifactId": "commons-logging",
+        "version": "1.2",
+        "type": "jar"
+      },
+      "uri": "repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar"
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "org.springframework.security",
+        "artifactId": "spring-security-core",
+        "version": "4.0.4.RELEASE",
+        "type": "jar"
+      },
+      "uri": "repository/org/springframework/security/spring-security-core/4.0.4.RELEASE/spring-security-core-4.0.4.RELEASE.jar"
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "aopalliance",
+        "artifactId": "aopalliance",
+        "version": "1.0",
+        "type": "jar"
+      },
+      "uri": "repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar"
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "org.springframework",
+        "artifactId": "spring-aop",
+        "version": "4.2.5.RELEASE",
+        "type": "jar"
+      },
+      "uri": "repository/org/springframework/spring-aop/4.2.5.RELEASE/spring-aop-4.2.5.RELEASE.jar"
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "org.springframework",
+        "artifactId": "spring-expression",
+        "version": "4.2.5.RELEASE",
+        "type": "jar"
+      },
+      "uri": "repository/org/springframework/spring-expression/4.2.5.RELEASE/spring-expression-4.2.5.RELEASE.jar"
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "org.springframework",
+        "artifactId": "spring-context",
+        "version": "4.1.9.RELEASE",
+        "type": "jar"
+      },
+      "uri": "repository/org/springframework/spring-context/4.1.9.RELEASE/spring-context-4.1.9.RELEASE.jar"
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "org.mule.module",
+        "artifactId": "mule-java-module",
+        "version": "1.1.1",
+        "type": "jar",
+        "classifier": "mule-plugin"
+      },
+      "uri": "repository/org/mule/module/mule-java-module/1.1.1/mule-java-module-1.1.1-mule-plugin.jar"
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "org.mule.modules",
+        "artifactId": "mule-validation-module",
+        "version": "1.2.1",
+        "type": "jar",
+        "classifier": "mule-plugin"
+      },
+      "uri": "repository/org/mule/modules/mule-validation-module/1.2.1/mule-validation-module-1.2.1-mule-plugin.jar"
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "org.mule.connectors",
+        "artifactId": "mule-objectstore-connector",
+        "version": "1.1.0",
+        "type": "jar",
+        "classifier": "mule-plugin"
+      },
+      "uri": "repository/org/mule/connectors/mule-objectstore-connector/1.1.0/mule-objectstore-connector-1.1.0-mule-plugin.jar"
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "mysql",
+        "artifactId": "mysql-connector-java",
+        "version": "6.0.6",
+        "type": "jar"
+      },
+      "uri": "repository/mysql/mysql-connector-java/6.0.6/mysql-connector-java-6.0.6.jar"
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "org.mule.connectors",
+        "artifactId": "mule-jms-connector",
+        "version": "1.2.2",
+        "type": "jar",
+        "classifier": "mule-plugin"
+      },
+      "uri": "repository/org/mule/connectors/mule-jms-connector/1.2.2/mule-jms-connector-1.2.2-mule-plugin.jar"
+    }
+  ]
+}

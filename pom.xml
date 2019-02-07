@@ -3,24 +3,25 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>61a045f2-76e0-496c-83ec-dc8a3ad6f71a</groupId>
-	<artifactId>testapp123</artifactId>
+	<artifactId>testapp</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>mule-application</packaging>
 
-	<name>testapp123</name>	
+	<name>testapp</name>	
 	<distributionManagement>
     <repository>
         <id>releases</id>
-        <url>https://github.com/ashishjan17/maven_mule_demo.git</url>
+        <url>file://C:\Users\aparashar\Desktop\MSWorkSpace\testapp\target</url>
     </repository>
    </distributionManagement>
 
     <properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-
 		<app.runtime>4.1.1</app.runtime>
 		<mule.maven.plugin.version>3.1.6</mule.maven.plugin.version>
+		
+		
 	</properties>
 
 	<build>
@@ -225,16 +226,16 @@
 						<artifactId>mule-maven-plugin</artifactId>
 						<configuration>
 							<deploymentType>cloudhub</deploymentType>
-							<muleVersion>${mule.version}</muleVersion>
-							<username>${anypoint.username}</username>
-							<password>${anypoint.password}</password>
-							<applicationName>${project.artifactId}</applicationName>
-							<environment>${cloundhub.env}</environment>
-							<businessGroup>${anypoint.businessGroup}</businessGroup>
-							<region>${cloudhub.region}</region>
-							<uri>${anypoint.uri}</uri>
-							<workerType>${cloudhub.workerType}</workerType>
-							<workers>${cloudhub.workers}</workers>
+							<muleVersion>4.1.1</muleVersion>
+							<username></username>
+							<password></password>
+							<applicationName>testapp</applicationName>
+							<environment>SANDBOX</environment>
+							<businessGroup>Groundswell Group</businessGroup>
+							<region>us-west-2 - US West (Oregon)</region>
+							<uri>https://anypoint.mulesoft.com</uri>
+							<workerType>MICRO (0.1 vCores)</workerType>
+							<workers>1</workers>
 						</configuration>
 						<executions>
 							<execution>
